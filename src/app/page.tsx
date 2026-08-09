@@ -47,7 +47,7 @@ export default function HomePage(): React.ReactElement {
               <span className={homePageStyles.spanInline}>
                 <PointerHighlight>Full Stack</PointerHighlight>
               </span>{" "}
-              Developer
+              Developer & Webflow Expert
             </h2>
 
             <div className="mb-6">
@@ -82,19 +82,30 @@ export default function HomePage(): React.ReactElement {
               </div>
             </div>
             <p className={homePageStyles.paragraph}>
-              I'm a <strong>Full Stack Developer</strong> passionate about
-              building scalable, secure, and high-performance web applications.
-              My primary stack includes <strong>React.js</strong>,{" "}
-              <strong>Next.js</strong>,<strong>NestJS</strong>,{" "}
-              <strong>TypeScript</strong>,<strong>MongoDB</strong>, and{" "}
-              <strong>PostgreSQL</strong>.
+              I&apos;m a <strong>Full Stack Developer</strong> and{" "}
+              <strong>Webflow Expert</strong> with 1.5+ years of hands-on
+              experience building real-world client projects and
+              production-ready web applications. My primary stack includes{" "}
+              <strong>React.js</strong>, <strong>Next.js</strong>,{" "}
+              <strong>NestJS</strong>, <strong>TypeScript</strong>,{" "}
+              <strong>MongoDB</strong>, and <strong>PostgreSQL</strong>.
+              <br />
+              <br />
+              Alongside full-stack development, I specialize in{" "}
+              <strong>Webflow development</strong>, responsive website design,
+              reusable components, custom interactions, and{" "}
+              <strong>workflow automation with Zapier</strong>. I have been
+              working on real client projects for over 1.5 years, helping
+              businesses turn ideas and designs into polished, functional, and
+              high-performing digital experiences.
               <br />
               <br />
               Currently, I work as a Full Stack Developer, contributing to
               production-grade SaaS platforms, business applications, legal
               management systems, healthcare solutions, and modern e-commerce
               platforms. I enjoy solving real-world problems through clean
-              architecture, maintainable code, and intuitive user experiences.
+              architecture, smart automation, maintainable code, and intuitive
+              user experiences.
             </p>
             <article className={homePageStyles.article.wrapper}>
               <div className={homePageStyles.article.videoContainer}>

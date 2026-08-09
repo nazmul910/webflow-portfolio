@@ -4,8 +4,10 @@ import Link from "next/link";
 
 const interests = [
   "FULL-STACK DEV",
-  "OPEN SOURCE",
+  "WEBFLOW",
+  "WEB DESIGN",
   "SAAS",
+  "AUTOMATION",
   "SYSTEM DESIGN",
   "PROBLEM SOLVING",
   "FOOTBALL",
@@ -13,19 +15,22 @@ const interests = [
 ];
 
 const techStack = [
-  "Next.js",
+  "Webflow",
   "React",
+  "Next.js",
   "NestJS",
   "TypeScript",
+  "JavaScript",
+  "Figma",
+  "Zapier",
   "MongoDB",
   "PostgreSQL",
-  "Prisma",
 ];
 
 const email = "nazmulhasan677441@gmail.com";
 
 const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
-  email
+  email,
 )}`;
 
 export default function About() {
@@ -67,12 +72,18 @@ export default function About() {
                 <h2 className={s.sectionHeading}>Who I Am</h2>
 
                 <p className={s.paragraph}>
-                  Hello! I'm <strong>MD. Nazmul Hasan</strong>, a passionate Full
-                  Stack Developer from Bangladesh specializing in React.js,
-                  Next.js, NestJS, TypeScript, and modern JavaScript
-                  technologies. I enjoy transforming complex business ideas into
-                  scalable, secure, and user-friendly web applications with
-                  clean architecture and excellent user experiences.
+                  Hello! I&apos;m <strong>MD. Nazmul Hasan</strong>, a Full
+                  Stack Developer and <strong>Webflow Expert</strong> from
+                  Bangladesh. I specialize in building modern, responsive, and
+                  production-ready websites and web applications using Webflow,
+                  React.js, Next.js, NestJS, TypeScript, and modern JavaScript
+                  technologies.
+                  <br />
+                  <br />I have hands-on experience working on{" "}
+                  <strong>60+ real client projects</strong>, helping businesses
+                  turn ideas and designs into polished digital experiences. I
+                  enjoy combining strong development skills with visual design,
+                  animations, reusable components, and smart automation.
                 </p>
               </section>
 
@@ -81,12 +92,18 @@ export default function About() {
                 <h2 className={s.sectionHeading}>What I Do</h2>
 
                 <p className={s.paragraph}>
-                  Currently working as a <strong>Full Stack Developer</strong>,
-                  building production-ready SaaS platforms, multi-tenant
-                  applications, e-commerce systems, and business automation
-                  tools. I collaborate directly with clients, gather
-                  requirements, design REST APIs, develop responsive frontends,
-                  and deploy complete solutions from idea to production.
+                  I build responsive and high-quality websites with{" "}
+                  <strong>Webflow</strong>, including CMS-driven websites,
+                  landing pages, reusable components, e-commerce experiences,
+                  custom interactions, and advanced animations. I also work with
+                  Figma to turn designs into accurate, responsive Webflow
+                  builds.
+                  <br />
+                  <br />
+                  Alongside Webflow development, I build full-stack applications
+                  using React, Next.js, NestJS, TypeScript, MongoDB, and
+                  PostgreSQL. I also create business workflows and integrations
+                  using <strong>Zapier automation</strong>.
                 </p>
               </section>
 
@@ -95,14 +112,19 @@ export default function About() {
                 <h2 className={s.sectionHeading}>My Journey</h2>
 
                 <p className={s.paragraph}>
-                  My development journey began with frontend technologies and
-                  gradually expanded into full-stack engineering. Over the past
-                  years I've worked on Lawyer Management Systems, Doctor
-                  Appointment Platforms, Multi-Tenant SaaS Applications,
-                  E-Commerce Platforms, and business dashboards using React,
-                  Next.js, NestJS, MongoDB, PostgreSQL, Prisma ORM, and modern
-                  development practices. Every project has strengthened my
-                  problem-solving skills and software architecture knowledge.
+                  My journey started with frontend development and gradually
+                  grew into both full-stack engineering and visual web
+                  development. Over the past 1.5+ years, I have worked on{" "}
+                  <strong>60+ real client projects</strong>, primarily building
+                  websites and digital experiences with Webflow.
+                  <br />
+                  <br />
+                  Throughout these projects, I have worked with Webflow CMS,
+                  e-commerce, responsive layouts, reusable components, custom
+                  CSS and JavaScript, animations, interactions, and third-party
+                  integrations. Alongside Webflow, I expanded my skills into
+                  React, Next.js, NestJS, databases, REST APIs, and SaaS
+                  development.
                 </p>
               </section>
 
@@ -111,12 +133,12 @@ export default function About() {
                 <h2 className={s.sectionHeading}>Vision</h2>
 
                 <p className={s.paragraph}>
-                  My goal is to become a world-class Software Engineer by
-                  continuously learning modern technologies, contributing to
-                  impactful products, and building software that solves
-                  real-world problems. I believe clean code, scalable
-                  architecture, and continuous learning are the foundations of
-                  long-term success.
+                  My goal is to become a well-rounded software engineer who can
+                  handle everything from visual design and Webflow development
+                  to scalable full-stack applications and business automation. I
+                  want to continue learning, work on meaningful products, and
+                  create digital experiences that are not only visually polished
+                  but also functional, scalable, and easy to maintain.
                 </p>
               </section>
 
@@ -126,10 +148,10 @@ export default function About() {
 
                 <p className={s.paragraph}>
                   Beyond programming, I enjoy playing football, exploring new
-                  technologies, contributing to personal projects, reading
-                  technical articles, and continuously improving my skills. I
-                  love turning ideas into real products and challenging myself
-                  with new technologies and development approaches.
+                  technologies, experimenting with Webflow interactions and
+                  animations, building personal projects, and learning new
+                  tools. I&apos;m always interested in discovering better ways
+                  to turn ideas into useful and engaging digital products.
                 </p>
               </section>
             </div>

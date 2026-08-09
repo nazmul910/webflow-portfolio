@@ -242,6 +242,186 @@ export const projects: Project[] = [
   author: "Nazmul Hasan",
   authorAvatar: "/logo.png",
 },
+{
+  id: "6",
+  title: "Portfolio Website",
+  slug: "portfolio-website",
+  description:
+    "A modern and engaging Webflow website built for a creative digital platform with a strong focus on visual storytelling and user experience.",
+  detailedDescription:
+    "ReelUp is a modern Webflow website developed with a strong emphasis on visual presentation, responsive layouts, smooth interactions, and engaging user experiences. The project focuses on creating a polished digital presence with carefully structured sections, responsive behavior, and interactive elements across different screen sizes.",
+  image: "/port.png",
+  tags: ["Webflow", "Web Design", "Responsive", "Animations", "Client Project"],
+  status: "active",
+  techStack: [
+    "Webflow",
+    "HTML5",
+    "CSS3",
+    "Animation",
+  ],
+  features: [
+    "Responsive Webflow development",
+    "Custom website sections",
+    "Smooth animations and interactions",
+    "Responsive layouts for desktop, tablet, and mobile",
+    "Reusable Webflow components",
+    "Modern visual design",
+  ],
+  learningOutcomes: [
+    "Advanced Webflow development",
+    "Responsive layout implementation",
+    "Webflow interactions and animations",
+    "Visual design implementation",
+    "Client-focused website development",
+  ],
+  links: {
+    visit: "https://reelup.org/",
+  },
+  author: "ReelUp",
+  authorAvatar: "/logo.png",
+},
+
+{
+  id: "7",
+  title: "Marketing Website",
+  slug: "marketing-website",
+  description:
+    "A professional marketing website built with Webflow, focusing on clean layouts, responsive design, and conversion-oriented user experiences.",
+  detailedDescription:
+    "Marketing Website is a professional Webflow website created for a marketing-focused business. The project combines a clean visual system with responsive layouts, structured content sections, modern typography, and interactive elements to create a polished and professional online presence.",
+  image: "/mark.png",
+  tags: [
+    "Webflow",
+    "Marketing",
+    "Business",
+    "Responsive",
+    "Client Project",
+  ],
+  status: "active",
+  techStack: [
+    "Webflow",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Animation",
+    "Webflow CMS"
+  ],
+  features: [
+    "Professional marketing website",
+    "Responsive Webflow layouts",
+    "Custom sections and components",
+    "Interactive elements",
+    "Responsive typography and spacing",
+    "Modern business-focused UI",
+  ],
+  learningOutcomes: [
+    "Building business websites with Webflow",
+    "Responsive Webflow development",
+    "Component-based page structure",
+    "Typography and spacing systems",
+    "Implementing design references",
+    "Client project workflow",
+  ],
+  links: {
+    visit: "https://marketingwinkel.webflow.io/",
+  },
+  author: "Marketing",
+  authorAvatar: "/logo.png",
+},
+
+{
+  id: "8",
+  title: "Cross Keys Design Studio",
+  slug: "cross-keys-design-studio",
+  description:
+    "A creative studio website built with Webflow, featuring a visually focused layout, responsive design, and polished interactions.",
+  detailedDescription:
+    "Cross Keys Design Studio is a creative Webflow website designed to showcase a strong visual identity and portfolio-driven content. The project focuses on visual hierarchy, responsive layouts, typography, spacing, and interactive experiences while maintaining a clean and consistent design system across devices.",
+  image: "/agen.png",
+  tags: [
+    "Webflow",
+    "Creative Studio",
+    "Portfolio",
+    "Responsive",
+    "Animations",
+  ],
+  status: "active",
+  techStack: [
+    "Webflow",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Figma",
+  ],
+  features: [
+    "Creative studio website",
+    "Responsive portfolio sections",
+    "Custom Webflow layouts",
+    "Smooth interactions and animations",
+    "Responsive typography",
+    "Visual storytelling",
+  ],
+  learningOutcomes: [
+    "Creative Webflow development",
+    "Building portfolio-focused layouts",
+    "Responsive design implementation",
+    "Webflow animations and interactions",
+    "Visual hierarchy and composition",
+    "Translating creative concepts into websites",
+  ],
+  links: {
+    visit: "https://cross-keys-design-studio.webflow.io/",
+  },
+  author: "Cross Keys Design Studio",
+  authorAvatar: "/logo.png",
+},
+
+{
+  id: "9",
+  title: "Hairstylers",
+  slug: "hairstylers",
+  description:
+    "A modern and responsive Webflow website for a hairstyling business, designed to showcase services, branding, and customer-focused content.",
+  detailedDescription:
+    "Hairstylers is a professional Webflow website created for a hairstyling business. The project combines modern branding, responsive layouts, service-focused sections, engaging visual elements, and a user-friendly structure to create a polished digital presence for the business.",
+  image: "/hair.png",
+  tags: [
+    "Webflow",
+    "Business",
+    "Beauty",
+    "Responsive",
+    "CMS",
+    "Client Project",
+  ],
+  status: "active",
+  techStack: [
+    "Webflow",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+  ],
+  features: [
+    "Responsive business website",
+    "Service showcase sections",
+    "Modern Webflow components",
+    "Responsive design across devices",
+    "Custom styling and layouts",
+    "Interactive website elements",
+  ],
+  learningOutcomes: [
+    "Building service-based business websites",
+    "Responsive Webflow development",
+    "Reusable component creation",
+    "Modern UI implementation",
+    "Client-focused design decisions",
+    "Cross-device layout optimization",
+  ],
+  links: {
+    visit: "https://hairstylers-top-notch-site.webflow.io/",
+  },
+  author: "Hairstylers",
+  authorAvatar: "/logo.png",
+},
 ];
 
 

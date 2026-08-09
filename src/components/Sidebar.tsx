@@ -260,7 +260,7 @@ export default function Sidebar(): React.ReactElement {
                 words={[
                   "Full Stack Developer",
                   "Problem Solver",
-                  "Content Creator",
+                  "Webflow Developer",
                 ]}
                 loop
               />
@@ -288,7 +288,7 @@ export default function Sidebar(): React.ReactElement {
               words={[
                 "Full Stack Developer",
                 "Problem Solver",
-                "Content Creator",
+                "Webflow Developer",
               ]}
               loop
             />
@@ -369,7 +369,7 @@ export default function Sidebar(): React.ReactElement {
                   words={[
                     "Full Stack Developer",
                     "Problem Solver",
-                    "Content Creator",
+                    "Webflow Developer",
                   ]}
                   loop
                 />

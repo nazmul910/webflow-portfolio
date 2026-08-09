@@ -169,11 +169,13 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                 <div>
                   <p className={s.projectInfoLabel}>Author</p>
                   <div className={s.authorContainer}>
-                    <img
+                   <div className="flex justify-center items-center w-8 h-8 rounded-full overflow-hidden">
+                     <img
                       src={project.authorAvatar}
                       alt={project.author}
-                      className={s.authorAvatar}
+                      className="w-4 h-4 object-contain "
                     ></img>
+                   </div>
                     <p className={s.authorName}>{project.author}</p>
                   </div>
                 </div>

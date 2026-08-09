@@ -8,61 +8,105 @@ import { Timeline } from "@/components/ui/timeline";
 export default function TimeLineDemo() {
   const data = [
     {
-      title: "Sep 2025 - Present",
+      title: "Mar 2025 - Present",
       content: (
-        <div className={s.itemContainer}>
-          <div className={s.itemFlexContainer}>
-            <div className={s.iconContainerBlue}>
-              <Briefcase className={s.iconBlue} />
-            </div>
+        <div>
+          <div>
+            <h3 className={s.contentTitle}>Webflow Expert · Softvence</h3>
 
-            <div>
-              <h3 className={s.contentTitle}>
-                Full Stack Developer · Softvence
-              </h3>
+            <p className={s.contentSubtitle}>Dhaka, Bangladesh • On-site</p>
 
-              <p className={s.contentSubtitle}>Dhaka, Bangladesh • On-site</p>
-
-              <p className={s.contentSubtitle}>
-                Building production-grade Full Stack applications.
-              </p>
-            </div>
+            <p className={s.contentSubtitle}>
+              Building high-quality, responsive, and production-ready Webflow
+              websites for real-world clients.
+            </p>
           </div>
 
           <ul className={s.list}>
             <li className={s.listItem}>
               <span className={s.bulletBlue}></span>
-              Developing scalable MERN Stack applications for real-world
-              business solutions.
+              Built and delivered <strong>60+ real client projects</strong> in
+              Webflow across different industries, business types, and design
+              styles.
             </li>
 
             <li className={s.listItem}>
               <span className={s.bulletBlue}></span>
-              Collaborating directly with clients to gather requirements and
-              deliver production-ready features.
+              Developed responsive websites, landing pages, reusable components,
+              CMS-based websites, dynamic collections, and custom templates.
             </li>
 
             <li className={s.listItem}>
               <span className={s.bulletBlue}></span>
-              Responsible for end-to-end feature development, API integration,
-              testing, and deployment.
+              Specialized in Webflow animations, interactions, scroll effects,
+              custom transitions, and polished micro-interactions to create
+              engaging user experiences.
+            </li>
+
+            <li className={s.listItem}>
+              <span className={s.bulletBlue}></span>
+              Implemented complex website functionalities using custom HTML,
+              CSS, JavaScript, Webflow CMS, Forms, and third-party integrations.
+            </li>
+
+            <li className={s.listItem}>
+              <span className={s.bulletBlue}></span>
+              Built and managed e-commerce websites including product
+              collections, dynamic content, layouts, and essential e-commerce
+              functionality.
+            </li>
+
+            <li className={s.listItem}>
+              <span className={s.bulletBlue}></span>
+              Created automated workflows using <strong>Zapier</strong> to
+              connect Webflow with external tools, forms, CRM systems, email
+              platforms, and other business applications.
+            </li>
+
+            <li className={s.listItem}>
+              <span className={s.bulletBlue}></span>
+              Converted Figma designs and creative references into
+              pixel-accurate, responsive Webflow websites optimized for desktop,
+              tablet, and mobile.
+            </li>
+
+            <li className={s.listItem}>
+              <span className={s.bulletBlue}></span>
+              Worked directly with clients to understand requirements, suggest
+              solutions, implement revisions, and deliver production-ready
+              websites.
+            </li>
+
+            <li className={s.listItem}>
+              <span className={s.bulletBlue}></span>
+              Handled complete project workflows from initial design and
+              development to CMS setup, responsiveness, animations, testing,
+              optimization, and final deployment.
             </li>
           </ul>
 
           <div className={s.techBadgesContainer}>
-            <span className={s.techBadge}>React.js</span>
-            <span className={s.techBadge}>Next.js</span>
-            <span className={s.techBadge}>NestJS</span>
-            <span className={s.techBadge}>TypeScript</span>
-            <span className={s.techBadge}>MongoDB</span>
-            <span className={s.techBadge}>PostgreSQL</span>
+            <span className={s.techBadge}>Webflow</span>
+            <span className={s.techBadge}>Webflow CMS</span>
+            <span className={s.techBadge}>Webflow E-commerce</span>
+            <span className={s.techBadge}>Figma</span>
+            <span className={s.techBadge}>HTML</span>
+            <span className={s.techBadge}>CSS</span>
+            <span className={s.techBadge}>JavaScript</span>
+            <span className={s.techBadge}>GSAP</span>
+            <span className={s.techBadge}>Animations</span>
+            <span className={s.techBadge}>Interactions</span>
+            <span className={s.techBadge}>Responsive Design</span>
+            <span className={s.techBadge}>Zapier</span>
+            <span className={s.techBadge}>Automation</span>
+            <span className={s.techBadge}>CMS</span>
           </div>
         </div>
       ),
     },
 
     {
-      title: "May 2025 - Present",
+      title: "May 2024 - Sep 2025",
       content: (
         <div className={s.itemContainer}>
           <div className={s.itemFlexContainer}>
@@ -192,6 +236,15 @@ export default function TimeLineDemo() {
                 <div className={`${s.techCardTitle} ${s.textCyan}`}>Tools</div>
                 <div className={s.techCardContent}>
                   Git, Github, Vercel, Render, Postmen,
+                </div>
+              </div>
+              <div className={s.techCard}>
+                <div className={`${s.techCardTitle} ${s.textCyan}`}>
+                  Webflow
+                </div>
+
+                <div className={s.techCardContent}>
+                  CMS,Animations, Interactions, Zapier Automation
                 </div>
               </div>
             </div>
